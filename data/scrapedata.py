@@ -13,13 +13,12 @@ allyears = [x[2] for x in os.walk(base)][0]
 
 alldata = []
 
-for yearFile in islice(allyears, 0, 1):
+for yearFile in allyears:
+    print('\n'*2, yearFile, '\n'*2)
     with open(base + yearFile, 'r') as f:
         for movie in f:
             print(movie)
             driver = Driver(movie)
             alldata.append((yearFile, movie.strip(), driver.bom))
 
-p = open('bestpictures.pkl', 'wb')
-p.dump(alldata, p)
-p.close()
+        pickle.dump(alldata, open('./pickleddata/'+yearFile+'.pkl', 'wb'))
