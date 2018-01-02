@@ -20,5 +20,7 @@ for pick in pickles:
         tempDf['year'] = movie[0]
         df = df.append(tempDf, ignore_index=True)
 
+winners = df.groupby('year').first().name.values
+df['Winner'] = df['name'].isin(winners)
 
-print(d, df)
+df.to_csv('movieData.csv', index=False)
