@@ -11,9 +11,8 @@ sys.setrecursionlimit(9999)
 base = r'./bestpicturesbyyear/'
 allyears = [x[2] for x in os.walk(base)][0]
 
-alldata = []
-
 for yearFile in allyears:
+    alldata = []
     print('\n'*2, yearFile, '\n'*2)
     with open(base + yearFile, 'r') as f:
         for movie in f:
