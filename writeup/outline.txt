@@ -1,0 +1,46 @@
+Let me walk you through my train of thought.
+
+Wanted to make best of 2017 list
+    ton left to see
+    didn't know how much time I had
+    it was sooner than I thought
+        they should be announcing soon, yeah?
+
+might be fun to guess the day they'll announce
+    coding the year, announcement, show date
+    only Tues/Wed/Th for shows on Sat/Sun
+    No Wed since '93
+    27 data points. Average diff w/ stdev = 37 +- 4
+    our air date is 3/4/18
+    so looking for Tues/Thurs in that range we have
+        2018-01-30 1 33
+        2018-01-25 3 38
+        2018-01-23 1 40
+
+    okay great, so we'll plot it and --
+
+    <plot 1> wat
+
+    <plot 2>did someone not set their alarm clock in 2009?
+        bumped from 5 best picture noms to 10
+
+    <plot 3> what's with the break after 2002?
+
+    wiki
+
+ratings
+    didn't start paying attention to them until 2013
+    was surprised to know that they were, seemingly, a much bigger deal
+    cycling through wikipedia pages, interesting to see
+        efforts to rebrand
+        effects of writer's strike
+
+    on the decline
+
+Before I knew it, an hour had gone by, and despite all of my reading, I wasn't much closer to which of the 3 dates I felt most confident about.
+
+So naturally, I spent my New Year's Day scraping every week of Box Office Data for all of the movies nominated for Best Picture since 1990.
+
+<cluttered image>
+
+Follow me on Twitter if you want to keep up on it.
